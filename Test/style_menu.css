@@ -1,0 +1,13 @@
+.menu {
+    width:400px;height:25px;
+	background-color: yellow;
+	padding: 10px;
+	border-width: 5px 5px 5px 5px;
+	border-style: double;
+	border-radius:20px;
+	margin-bottom:70px;
+}
+
+.a {
+	font-size: 20px;
+}

@@ -1,0 +1,19 @@
+.item {
+  /*grid-area: c;*/
+  /* Задаём алиас элименту */
+  background-color: cornflowerblue;
+  padding: 10px;
+  margin: 5px;
+  border: 2px;
+  border-style: dashed;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.user {
+  font-weight: 900;
+}

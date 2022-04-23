@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>О нас</title>
+    <link rel="stylesheet" href="style_menu.css"> <!--style_menu.css?v=1.0.0.003-->
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body>
+	<div class='menu1'>
+		<!--<a href='index.html'>О нас</a> |-->
+		<!--<a href='recipe.html'>Рецепты</a> |-->
+		<!--<a href='mantra.html'>Аффирмации</a> |-->
+		<a class='a' href='index.html'>JS Test</a>
+	</div>
+	<div class='JS'>
+		This block for testing JavaScript
+		<p><b>Example:</b>
+		<div class='example'>
+			function имя(параметры) {<br>
+				...тело...<br>
+			}<br>
+			<br>
+			<i>имя</i> - задаётся имя функции<br>
+			<i>параметры</i> - принимает "переменные" в тело функции.<br>
+			<i>...тело...</i> - код внутри функциию<br>
+			<br>
+		</div>
+		<div>
+			<b>Result your code:</b><p> 
+			<script>
+				let color = 'red';
+				let divElement = document.querySelector('.example');
+				divElement.style.background = color; // сделать фон красным
+				divElement.addEventListener('click', function () {
+					switch (divElement.style.background) {
+						case 'red':
+							document.querySelector('.example').style.background = 'green';
+							break;
+						case 'green':
+							document.querySelector('.example').style.background = 'purple';
+							break;
+						case 'purple':
+							document.querySelector('.example').style.background = 'orange';
+							break;
+						case 'orange':
+							document.querySelector('.example').style.background = 'red';
+							break;
+					}
+				}
+				);
+
+
+
+
+				//setTimeout(() => document.querySelector('.example').style.background = '', 3000); // вернуть назад
+			</script>
+		</div>
+	</div>
+</body>
+</html>

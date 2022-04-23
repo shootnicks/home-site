@@ -1,0 +1,21 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-areas:
+  "h h" /* указываем какие элементы занимают ячейки 1-ой строки*/
+  "n c"; /* указываем какие элементы занимают ячейки 2-ой строки*/
+    grid-template-rows: 60px 1fr; /* Задаём пропорции строк */
+    grid-template-columns: 2fr 10fr; /* Задаём пропорции колон */
+    /* grid-gap: 10px; */
+}
+
+.app-wrapper-content {
+    grid-area: c; /* Задаём алиас элименту */
+    background-color: cornflowerblue;
+}
+
+
+.photo {
+    width: 200px;
+}
